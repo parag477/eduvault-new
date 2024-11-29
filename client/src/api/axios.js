@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: `${process.env.REACT_APP_API_URL}/api` || 'http://localhost:5001/api',
+  baseURL: "https://eduvault-new.vercel.app/api" || 'http://localhost:5001/api',
   headers: {
     'Content-Type': 'application/json',
   },
