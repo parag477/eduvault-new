@@ -68,7 +68,7 @@ const Login = () => {
   }, [location, handleGoogleSuccess]);
 
   const handleGoogleLogin = () => {
-    window.location.href = `${process.env.REACT_APP_API_URL}/api/auth/google`;
+    window.location.href = "https://eduvault-new.vercel.app/api/auth/google";
   };
 
   const handleChange = (e) => {

@@ -23,7 +23,7 @@ const Register = () => {
     }
   }, [isAuthenticated, navigate]);
 
-  const handleGoogleLogin = () => {    window.location.href = `${process.env.REACT_APP_API_URL}/api/auth/google?role=${encodeURIComponent(formData.role)}`;
+  const handleGoogleLogin = () => {    window.location.href = `https://eduvault-new.vercel.app/api/auth/google?role=${encodeURIComponent(formData.role)}`;
   };
 
   const handleChange = (e) => {
